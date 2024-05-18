@@ -36,10 +36,622 @@ const events = [
         date: "2024-05-25",
         organizer: "Организатор 2"
     },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
+    {
+        title: "Событие 1",
+        description: "Описание события 1",
+        date: "2024-05-20",
+        organizer: "Организатор 1"
+    },
+    {
+        title: "Событие 2",
+        description: "Описание события 2",
+        date: "2024-05-25",
+        organizer: "Организатор 2"
+    },
     // Добавьте больше событий по аналогии
 ];
 
-const itemsPerPage = 5; // Количество событий на странице
+const itemsPerPage = 10; // Количество событий на странице
 
 const eventList = document.getElementById('event-list');
 const pagination = document.getElementById('pagination');
@@ -62,6 +674,8 @@ function displayEvents(page) {
             <p><strong>Дата:</strong> ${event.date}</p>
             <p><strong>Организатор:</strong> ${event.organizer}</p>
             <p>${event.description}</p>
+            <button>Redistr</button>
+            <button>Weiv</button>
         `;
         eventList.appendChild(eventElement);
     });
