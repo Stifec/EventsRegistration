@@ -1,1 +1,3 @@
 # EventsRegistration
+
+start index.html
