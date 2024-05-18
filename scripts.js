@@ -1,4 +1,4 @@
-// Предполагается, что данные о событиях будут загружаться из API или базы данных.
+
 const events = [
     {
         id: 1,
@@ -22,9 +22,9 @@ const events = [
     {
         id: 2,
         title: "Событие 2",
-        description: "Описание события 2",
+        description: "Описание события 1",
         date: "2021-05-20",
-        organizer: "Организатор 2",
+        organizer: "Организатор 1",
         user: [{
             name: "Saret",
             email: 'saret@ghgjg.com'
@@ -35,7 +35,8 @@ const events = [
         title: "Событие 3",
         description: "Описание события 3",
         date: "2024-08-20",
-        organizer: "Организатор 1"
+        organizer: "Организатор 1",
+        user: [],
     },
     {
         id: 4,
@@ -107,80 +108,43 @@ const events = [
     // Добавьте больше событий по аналогии
 ];
 
-const itemsPerPage = 4; // Количество событий на странице
-
-const eventList = document.getElementById('event-list');
-const pagination = document.getElementById('pagination');
-
-
-let currentPage = 1;
-
-// Функция для отображения событий на текущей странице
-function displayEvents(page) {
-    eventList.innerHTML = '';
-
-    const startIndex = (page - 1) * itemsPerPage;
-    const endIndex = startIndex + itemsPerPage;
-    const displayedEvents = events.slice(startIndex, endIndex);
-
-    displayedEvents.forEach(events => {
-
-        const eventElement = document.createElement('div');
-        eventElement.classList.add('event');
-        eventElement.innerHTML = `
-            <h2>${events.title}</h2>
-            <p><strong>Дата:</strong> ${events.date}</p>
-            <p><strong>Организатор:</strong> ${events.organizer}</p>
-            <p>${events.description}</p>
-            <button>Redistr</button>
-            <button id="${events.id}" type="button" class="btn-view">View</button>
-        `;
-        eventList.appendChild(eventElement)
-    });
-}
-
-
-
-// Функция для отображения пагинации
-function displayPagination() {
-    pagination.innerHTML = '';
-
-
-    const totalPages = Math.ceil(events.length / itemsPerPage);
-
-    for (let i = 1; i <= totalPages; i++) {
-        const button = document.createElement('button');
-        button.textContent = i;
-        button.addEventListener('click', () => {
-
-            currentPage = i;
-
-            displayEvents(currentPage);
-
-        });
-        pagination.appendChild(button);
-    }
-}
-
-// Первоначальная загрузка страницы
-displayEvents(currentPage);
-displayPagination();
-
 // ======================== VIEW ============================
 
-const btn = document.querySelector(".btn-view");
 
 
-btn.addEventListener("click", (e) => {
-    const bookElem = e.target.id;
-    console.log(bookElem)
-    localStorage.setItem('button', `${bookElem}`)
+const idBook = Number(localStorage.getItem("button"));
+console.log(idBook)
+let bookItem = document.querySelector(".users");
+const addDataToHTML = () => {
+    bookItem.innerHTML = "";
 
-    window.location.href = "users.html";
-
-});
-
-
-
-
-
+        events.forEach((event) => {
+            if (event.id === idBook) {
+                if(event.user.length === 0) {
+                    let newBook = document.createElement("div");
+                    newBook.classList.add("book-item");
+                    newBook.innerHTML = `
+                    <div class="book-image">
+                        <p class="item-discription">User not found</p>                        
+                    </div>
+                `;
+                    bookItem.appendChild(newBook);
+                }
+                else {
+                    for(const userInfo of event.user) {
+                        let newBook = document.createElement("div");
+                        newBook.classList.add("book-item");
+                        newBook.innerHTML = `
+                        <div class="book-image">
+                            <p class="item-discription">45</p>
+                            <p class="item-discription">rteretretrere</p>
+                            <p>${userInfo.name}</p>
+                            <p>${userInfo.email}</p>
+                        </div>`;
+                        bookItem.appendChild(newBook);
+                    }
+                }
+            }
+        });
+};
+addDataToHTML();

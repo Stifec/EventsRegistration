@@ -37,7 +37,10 @@
 
 #pagination button {
     border: none;
-    /*border-radius: 50%;*/
     margin-right: 5px;
     cursor: pointer;
+}
+
+.book-item{
+    border: 1px solid gold;
 }
