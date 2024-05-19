@@ -109,7 +109,7 @@ const events = [
 
 const itemsPerPage = 4; // Количество событий на странице
 
-const eventList = document.getElementById('event-list');
+const eventList = document.querySelector('.event-list');
 const pagination = document.getElementById('pagination');
 
 
@@ -127,16 +127,23 @@ function displayEvents(page) {
 
         const eventElement = document.createElement('div');
         eventElement.classList.add('event');
+        eventElement.dataset.id = events.id
         eventElement.innerHTML = `
             <h2>${events.title}</h2>
             <p><strong>Дата:</strong> ${events.date}</p>
             <p><strong>Организатор:</strong> ${events.organizer}</p>
             <p>${events.description}</p>
-            <button>Redistr</button>
+          
+                <button id="${events.id}" type="button" class="registr">Redistr</button>
+            
+            
             <button id="${events.id}" type="button" class="btn-view">View</button>
         `;
         eventList.appendChild(eventElement)
+
+
     });
+
 }
 
 
@@ -168,17 +175,47 @@ displayPagination();
 
 // ======================== VIEW ============================
 
-const btn = document.querySelector(".btn-view");
+const btn = document.querySelector('.event-board');
+console.log(btn)
+    btn.addEventListener("click", (e) => {
+            if(e.target.className === 'btn-view') {
+                const bookElem = e.target.id;
+
+                console.log('bookElem', bookElem)
+                localStorage.setItem('button', `${bookElem}`)
+                window.location.href = "users.html";
+            }
+            if(e.target.className === 'registr') {
+                const regist = e.target.id;
+                console.log('bookElem', regist)
+                localStorage.setItem('buton', `${regist}`)
+                toggleModal()
+
+            }
 
 
-btn.addEventListener("click", (e) => {
-    const bookElem = e.target.id;
-    console.log(bookElem)
-    localStorage.setItem('button', `${bookElem}`)
 
-    window.location.href = "users.html";
+    });
 
-});
+// ================== MODAL ==============
+
+const modal = document.querySelector('.backdrop');
+// const modalOpen = document.querySelector('.registr');
+const modalClose = document.querySelector('.btn-modal-close');
+const mod = document.querySelector(".body");
+
+const toggleModal = () => {
+    modal.classList.toggle('is-hidden')
+    mod.classList.toggle('body-mod')
+};
+
+
+
+// modalOpen.addEventListener('click', toggleModal);
+modalClose.addEventListener('click', toggleModal);
+
+
+
 
 
 

@@ -6,7 +6,8 @@ const events = [
         description: "Описание события 1",
         date: "2023-05-10",
         organizer: "Организатор 1",
-        user: [{
+        user: [
+            {
             name: "Alex",
             email: 'alex@ghgjg.com'
         },{
@@ -43,42 +44,48 @@ const events = [
         title: "Событие 4",
         description: "Описание события 4",
         date: "2024-08-25",
-        organizer: "Организатор 2"
+        organizer: "Организатор 2",
+        user: [],
     },
     {
         id: 5,
         title: "Событие 5",
         description: "Описание события 5",
         date: "2025-05-20",
-        organizer: "Организатор 1"
+        organizer: "Организатор 1",
+        user: [],
     },
     {
         id: 6,
         title: "Событие 6",
         description: "Описание события 6",
         date: "2025-01-25",
-        organizer: "Организатор 2"
+        organizer: "Организатор 2",
+        user: [],
     },
     {
         id: 7,
         title: "Событие 7",
         description: "Описание события 7",
         date: "2022-05-20",
-        organizer: "Организатор 1"
+        organizer: "Организатор 1",
+        user: [],
     },
     {
         id: 8,
         title: "Событие 8",
         description: "Описание события 8",
         date: "2023-02-25",
-        organizer: "Организатор 2"
+        organizer: "Организатор 2",
+        user: [],
     },
     {
         id: 9,
         title: "Событие 9",
         description: "Описание события 9",
         date: "2024-05-24",
-        organizer: "Организатор 1"
+        organizer: "Организатор 1",
+        user: [],
     },
     {
         id: 10,
@@ -86,7 +93,7 @@ const events = [
         description: "Описание события 10",
         date: "2024-06-25",
         organizer: "Организатор 2",
-        users: [],
+        user: [],
     },
     {
         id: 11,
@@ -94,7 +101,7 @@ const events = [
         description: "Описание события 11",
         date: "2023-03-20",
         organizer: "Организатор 1",
-        users: [],
+        user: [],
     },
     {
         id: 12,
@@ -102,7 +109,7 @@ const events = [
         description: "Описание события 12",
         date: "2024-05-25",
         organizer: "Организатор 2",
-        users: [],
+        user: [],
     },
 
     // Добавьте больше событий по аналогии
@@ -114,17 +121,18 @@ const events = [
 
 const idBook = Number(localStorage.getItem("button"));
 console.log(idBook)
-let bookItem = document.querySelector(".users");
+let bookItem = document.querySelector(".event-list");
+
 const addDataToHTML = () => {
-    bookItem.innerHTML = "";
+    // bookItem.innerHTML = "";
 
         events.forEach((event) => {
             if (event.id === idBook) {
                 if(event.user.length === 0) {
                     let newBook = document.createElement("div");
-                    newBook.classList.add("book-item");
+                    newBook.classList.add("event");
                     newBook.innerHTML = `
-                    <div class="book-image">
+                    <div class="eventa">
                         <p class="item-discription">User not found</p>                        
                     </div>
                 `;
@@ -133,9 +141,9 @@ const addDataToHTML = () => {
                 else {
                     for(const userInfo of event.user) {
                         let newBook = document.createElement("div");
-                        newBook.classList.add("book-item");
+                        newBook.classList.add("event");
                         newBook.innerHTML = `
-                        <div class="book-image">
+                        <div class="eventa">
                             <p class="item-discription">45</p>
                             <p class="item-discription">rteretretrere</p>
                             <p>${userInfo.name}</p>
