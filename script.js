@@ -129,15 +129,15 @@ function displayEvents(page) {
         eventElement.classList.add('event');
         eventElement.dataset.id = events.id
         eventElement.innerHTML = `
-            <h2>${events.title}</h2>
-            <p><strong>Дата:</strong> ${events.date}</p>
-            <p><strong>Организатор:</strong> ${events.organizer}</p>
-            <p>${events.description}</p>
-          
-                <button id="${events.id}" type="button" class="registr">Redistr</button>
+            <h2>Title: ${events.title}</h2>
+            <p><strong>Data:</strong> ${events.date}</p>
+            <p><strong>Organiser:</strong> ${events.organizer}</p>
+            <p>Description: ${events.description}</p>
+            <div class="control">
+                <button id="${events.id}" type="button" class="registr">Redistr</button>     
+                <button id="${events.id}" type="button" class="btn-view">View</button>
+            </div>
             
-            
-            <button id="${events.id}" type="button" class="btn-view">View</button>
         `;
         eventList.appendChild(eventElement)
 
@@ -157,6 +157,7 @@ function displayPagination() {
 
     for (let i = 1; i <= totalPages; i++) {
         const button = document.createElement('button');
+        button.classList.add('btn-pagination');
         button.textContent = i;
         button.addEventListener('click', () => {
 

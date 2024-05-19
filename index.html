@@ -8,7 +8,7 @@
 </head>
 <body class="body">
 <main class="main">
-    <h1>Доска событий</h1>
+    <h1>Events</h1>
     <div class="event-board">
 
         <div class="event-list"></div>
@@ -19,7 +19,44 @@
 
     <div class="backdrop is-hidden">
         <div class="modal">
-            <button class="btn-modal-close" type="button">finish</button>
+            <h2>Event registration</h2>
+            <form id="registrationForm">
+                <fieldset class="user-info">
+                <div>
+                    <label for="fullName">Full name:</label>
+                    <input type="text" id="fullName" name="fullName" required>
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="dob">Data of birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                </fieldset>
+                <fieldset class="account-action">
+                <div>
+                    Where did you hear about this event?
+                </div>
+                <div>
+                    <label>
+                        <input type="radio" name="question" required>
+                        Social media
+                    </label>
+                    <label>
+                        <input type="radio" name="question" required>
+                        Friends
+                    </label>
+                    <label>
+                        <input type="radio" name="question" required>
+                        Found myself
+                    </label>
+                </div>
+                <button class="btn-modal-close" type="submit">Submit</button>
+                </fieldset>
+            </form>
+
 
         </div>
     </div>

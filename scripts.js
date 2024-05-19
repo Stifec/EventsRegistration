@@ -112,7 +112,6 @@ const events = [
         user: [],
     },
 
-    // Добавьте больше событий по аналогии
 ];
 
 // ======================== VIEW ============================
@@ -124,7 +123,7 @@ console.log(idBook)
 let bookItem = document.querySelector(".event-list");
 
 const addDataToHTML = () => {
-    // bookItem.innerHTML = "";
+    bookItem.innerHTML = "";
 
         events.forEach((event) => {
             if (event.id === idBook) {
@@ -132,8 +131,8 @@ const addDataToHTML = () => {
                     let newBook = document.createElement("div");
                     newBook.classList.add("event");
                     newBook.innerHTML = `
-                    <div class="eventa">
-                        <p class="item-discription">User not found</p>                        
+                    <div class="user-info">
+                        <p class="name">User not found</p>                        
                     </div>
                 `;
                     bookItem.appendChild(newBook);
@@ -143,11 +142,9 @@ const addDataToHTML = () => {
                         let newBook = document.createElement("div");
                         newBook.classList.add("event");
                         newBook.innerHTML = `
-                        <div class="eventa">
-                            <p class="item-discription">45</p>
-                            <p class="item-discription">rteretretrere</p>
-                            <p>${userInfo.name}</p>
-                            <p>${userInfo.email}</p>
+                        <div class="user-info">                  
+                            <p class="name">Name: ${userInfo.name}</p>
+                            <p class="email">E-mail: ${userInfo.email}</p>
                         </div>`;
                         bookItem.appendChild(newBook);
                     }
